@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: white#333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.recipe {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.recipe img {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.recipe h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.recipe ul, .recipe ol {
+    margin-bottom: 20px;
+}
+
+.recipe li {
+    margin-bottom: 5px;
+}
+
+.recipe ol {
+    list-style-type: decimal;
+}
+
+.recipe ol li {
+    margin-left: 20px;
+}
+
